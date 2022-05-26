@@ -1,0 +1,31 @@
+{
+  "name": "froala-imgur",
+  "version": "1.0.0",
+  "description": "Plugin for uploading imgur image on WYSIWYG HTML Editor",
+  "main": "src/imgur.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxhou00/froala-imgur.git"
+  },
+  "keywords": [
+    "froala",
+    "froala-plugin",
+    "wysiwyg",
+    "rich",
+    "editor",
+    "imgur",
+    "images"
+  ],
+  "author": "Maxime Houdais-Morançais <houdais.m@gmail.com> (https://github.com/Maxhou00)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maxhou00/froala-imgur/issues"
+  },
+  "homepage": "https://github.com/Maxhou00/froala-imgur#readme",
+  "dependencies": {
+    "jquery": "^1.12.4"
+  }
+}
