@@ -73,7 +73,7 @@ FroalaEditor.PLUGINS.imgurPlugin = function (editor) {
 
     editor.popups.setContainer("imgurPlugin.insert", editor.$tb);
 
-    const $btn = editor.$tb.find('.fr-command[data-cmd="imgurButton"]');
+    const $btn = editor.$tb.find('.fr-command[data-cmd="imgurUpload"]');
     const left = $btn.offset().left;
     const top = $btn.offset().top;
 
@@ -141,7 +141,7 @@ FroalaEditor.PLUGINS.imgurPlugin = function (editor) {
   };
 };
 
-FroalaEditor.RegisterCommand("imgurButton", {
+FroalaEditor.RegisterCommand("imgurUpload", {
   title: "Upload Image",
   icon: "buttonIcon",
   undo: true,
