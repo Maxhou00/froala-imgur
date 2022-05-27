@@ -1,6 +1,6 @@
 {
   "name": "froala-imgur",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Plugin for uploading imgur image on WYSIWYG HTML Editor",
   "main": "src/imgur.js",
   "scripts": {
